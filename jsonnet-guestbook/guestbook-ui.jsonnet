@@ -21,7 +21,7 @@ local params = import 'params.libsonnet';
     },
   },
   {
-    apiVersion: 'apps/v1alpha1',
+    apiVersion: 'argoproj.io/v1alpha1',
     kind: 'Rollout',
     metadata: {
       name: params.name,
